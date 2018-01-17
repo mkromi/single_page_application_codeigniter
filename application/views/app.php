@@ -3,8 +3,8 @@
     <head>
         <meta charset="utf-8">
         <title>Single Page Application</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" href="//cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+        <link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.min.css') ?>">
+        <link rel="stylesheet" href="<?php echo base_url('assets/css/jquery.dataTables.min.css') ?>">
         <link rel="stylesheet" href="<?php echo base_url('assets/fonts/font-awesome/css/font-awesome.min.css') ?>">
         <script type="text/javascript">
     		(function(){
@@ -81,10 +81,10 @@
             </div>
 
         </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
-        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="<?php echo base_url('assets/js/jquery.min.js') ?>"></script>
+        <script src="<?php echo base_url('assets/js/bootstrap.min.js') ?>"></script>
+        <script src="<?php echo base_url('assets/js/jquery.dataTables.min.js') ?>"></script>
+        <script src="<?php echo base_url('assets/js/sweetalert.min.js') ?>"></script>
         <script src="<?php echo base_url('assets/js/notify.min.js') ?>"></script>
         <script src="<?php echo base_url('assets/js/spa.js') ?>"></script>
     </body>
