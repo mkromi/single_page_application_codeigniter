@@ -1,5 +1,5 @@
 ###################
-SPA CodeIgniter + jQuery
+Single Page Application CodeIgniter + jQuery
 ###################
 
 Codeintiger - basic back-end
